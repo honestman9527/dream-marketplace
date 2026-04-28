@@ -1,0 +1,28 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local assistant/editor state
+.claude/
+.codex/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+.cache/
+
+# Dependencies and generated outputs
+node_modules/
+dist/
+build/
+out/
+coverage/
