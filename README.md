@@ -1,26 +1,26 @@
-# my-marketplace
+# dream-marketplace
 
-`my-marketplace` 是个人 Claude Code 插件市场路由仓库。这个仓库只维护 marketplace 索引，不再存放插件本体；每个插件放在一个独立仓库中，便于版本管理、安装和后续扩展。
+`dream-marketplace` 是个人 Claude Code 插件市场路由仓库。这个仓库只维护 marketplace 索引，不再存放插件本体；每个插件放在一个独立仓库中，便于版本管理、安装和后续扩展。
 
 ## 在线安装
 
 添加个人 marketplace：
 
 ```powershell
-claude plugin marketplace add honestman9527/my-marketplace
+claude plugin marketplace add honestman9527/dream-marketplace
 ```
 
 安装 Novel Studio：
 
 ```powershell
-claude plugin install ns@my-marketplace
+claude plugin install ns@dream-marketplace
 ```
 
 在 Claude Code 交互界面中也可以使用：
 
 ```text
-/plugin marketplace add honestman9527/my-marketplace
-/plugin install ns@my-marketplace
+/plugin marketplace add honestman9527/dream-marketplace
+/plugin install ns@dream-marketplace
 /reload-plugins
 ```
 
@@ -28,7 +28,7 @@ claude plugin install ns@my-marketplace
 
 | 插件 | 独立仓库 | 用途 | 安装名 |
 | --- | --- | --- | --- |
-| NS | `honestman9527/novel-studio` | 小说创作工作室，支持多小说项目、长期记忆、脑暴、设定、大纲、正文、调研和插画提示词 | `ns@my-marketplace` |
+| NS | `honestman9527/novel-studio` | 小说创作工作室，支持多小说项目、长期记忆、脑暴、设定、大纲、正文、调研和插画提示词 | `ns@dream-marketplace` |
 
 NS 安装后可用的 Claude Code 技能入口：
 
@@ -70,13 +70,13 @@ claude plugin validate .
 5. 提交并推送本仓库。用户可通过下面命令刷新 marketplace：
 
 ```powershell
-claude plugin marketplace update my-marketplace
+claude plugin marketplace update dream-marketplace
 ```
 
 ## 仓库结构
 
 ```text
-my-marketplace/
+dream-marketplace/
   .claude-plugin/
     marketplace.json
   README.md

@@ -1,9 +1,9 @@
 {
-  "name": "my-marketplace",
+  "name": "dream-marketplace",
   "owner": {
     "name": "sunik"
   },
-  "description": "Personal Claude Code plugin marketplace. Each plugin lives in its own repository.",
+  "description": "Dream marketplace — a curated collection of Claude Code plugins for creative writing and beyond.",
   "version": "0.1.0",
   "plugins": [
     {
