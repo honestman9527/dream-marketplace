@@ -4,7 +4,7 @@
     "name": "Dream"
   },
   "description": "Dream marketplace — a curated collection of Claude Code plugins for creative writing and beyond.",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "plugins": [
     {
       "name": "ns",
